@@ -1,8 +1,59 @@
 <!doctype html>
-<meta charset="utf-8">
-<title>Movie S1</title>
-<video controls preload="metadata" style="max-width:100%;height:auto">
-  <source src="SM_movie.mp4" type="video/mp4">
-  Your browser can't play this video.
-</video>
-<p><a href="SM_movie.mp4">Download MP4</a></p>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Movies — 2P-OPM</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    :root { --maxw: 900px; }
+    body{font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;max-width:var(--maxw);margin:32px auto;padding:0 16px;line-height:1.45;color:#111}
+    h1{font-size:1.4rem;margin:0 0 16px}
+    figure{margin:20px 0}
+    video{max-width:100%;height:auto;display:block;border-radius:8px}
+    figcaption{font-size:0.95rem;color:#444;margin-top:8px}
+    .dl { margin:6px 0 0 }
+    a{color:#0b5bd3;text-decoration:none}
+    a:hover{text-decoration:underline}
+  </style>
+</head>
+<body>
+  <h1>Movies — 2P-OPM</h1>
+
+  <!-- Movie S1 -->
+  <figure>
+    <video controls autoplay muted loop playsinline preload="metadata" poster="SM_clip.png">
+      <source src="SM_movie.mp4" type="video/mp4">
+      Your browser can’t play this video.
+    </video>
+    <figcaption>
+      <strong>Video S1.</strong> Raw single-molecule <i>hb</i> transcripts diffusing in a live fly embryo.
+      <div class="dl"><a href="SM_movie.mp4">Direct download (MP4)</a></div>
+    </figcaption>
+  </figure>
+
+  <!-- Duplicate this block for additional movies; update filenames and captions -->
+  <!--
+  <figure>
+    <video controls autoplay muted loop playsinline preload="metadata" poster="S2_clip.png">
+      <source src="S2_movie.mp4" type="video/mp4">
+    </video>
+    <figcaption>
+      <strong>Movie S2.</strong> Your caption here.
+      <div class="dl"><a href="S2_movie.mp4">Direct download (MP4)</a></div>
+    </figcaption>
+  </figure>
+  -->
+
+  <script>
+    // Ensure autoplay works everywhere; set attributes for any future <video> blocks automatically
+    document.querySelectorAll('video').forEach(v => {
+      v.muted = true; // required for autoplay
+      v.setAttribute('autoplay','');
+      v.setAttribute('loop','');
+      v.setAttribute('playsinline','');
+      v.setAttribute('preload','metadata');
+      v.addEventListener('canplay', () => v.play().catch(()=>{}), { once: true });
+    });
+  </script>
+</body>
+</html>
