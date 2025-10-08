@@ -1,4 +1,4 @@
-# 2P-OPM-hardware
+# 2P-OPM hardware
 Hardware files for the 2P-OPM system.
 
 ## Description
