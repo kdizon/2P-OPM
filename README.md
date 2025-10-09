@@ -1,11 +1,15 @@
 # 2P-OPM: Two-photon oblique plane microscope
 
-Open CAD, control code, reconstruction, and videos for the 2P-OPM instrument.
+Open CAD, control code, reconstruction, data, and videos for the 2P-OPM instrument.
 
 ## Contents
 - Opto-mechanical CAD (Inventor + STEP/STL): **[cad/](./cad)**
 - Instrument control/acquisition (FastMC): **[code/control/](./code/control)**
 - GPU-accelerated volume reconstruction: **[code/reconstruction/](./code/reconstruction)**
-- Video data: **[movies/](./movies)**
+- Representative image datasets: **[data/](./data)**
+- Associated videos: **[movies/](./movies)**
 
-**Licensing**: Code: BSD-3; CAD: CERN-OHL-P; Videos: CC BY 4.0.
+##Licensing
+- Code: [BSD-3-Clause](./LICENSE)
+- CAD: [CERN-OHL-P v2.0](./cad/LICENSE)
+- Videos: [CC BY 4.0](./movies/LICENSE)
