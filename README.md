@@ -3,13 +3,14 @@
 Open CAD, control code, reconstruction, data, and videos for the 2P-OPM instrument.
 
 ## Contents
-- Opto-mechanical CAD (Inventor + STEP/STL): **[cad/](./cad)**
+- Opto-mechanical CAD (Inventor + STEP/STL): **[CAD/](./CAD)**
 - Instrument control/acquisition (FastMC): **[code/control/](./code/control)**
 - GPU-accelerated volume reconstruction: **[code/reconstruction/](./code/reconstruction)**
 - Representative image datasets: **[data/](./data)**
 - Associated videos: **[movies/](./movies)**
 
-##Licensing
+## Licensing
 - Code: [BSD-3-Clause](./LICENSE)
 - CAD: [CERN-OHL-P v2.0](./cad/LICENSE)
+- Data: [CC BY 4.0](./data/LICENSE)
 - Videos: [CC BY 4.0](./movies/LICENSE)
