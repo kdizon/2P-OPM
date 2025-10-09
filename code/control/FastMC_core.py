@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: BSD-3-Clause
+
+
 import nidaqmx
 import nidaqmx.system
 import numpy as np
@@ -435,4 +438,5 @@ class nidaq:
                 task_galvo.close()
             if self.led_trigger == "software_time" or self.led_trigger == "software_fraction":
                 task_led.close()
+
 
