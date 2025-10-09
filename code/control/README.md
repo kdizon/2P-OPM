@@ -1,6 +1,6 @@
 # FastMC — Fast multi-camera acquisition for 2P-OPM
 
-FastMC provides NI-DAQ–driven timing for one to three PCO Edge cameras, the OPM galvo, and optional LED control, with Micro-Manager used as the **viewer only**. The hardware timing and limits come from `FastMC_core.py`; `FastMC.py` is the user-editable runner/config.
+FastMC provides NI-DAQ–driven timing for one or more PCO Edge cameras (validated with up to 3), the OPM galvo, and optional LED control, with Micro-Manager used as the **viewer only**. The hardware timing and limits come from `FastMC_core.py`; `FastMC.py` is the user-editable runner/config.
 
 ---
 
@@ -25,3 +25,4 @@ FastMC provides NI-DAQ–driven timing for one to three PCO Edge cameras, the OP
 2. Run:
    ```bash
    python FastMC.py
+
