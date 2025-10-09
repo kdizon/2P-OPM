@@ -1,6 +1,6 @@
 # 2P-OPM: Two-photon oblique plane microscope
 
-Open CAD, control code, reconstruction, and videos supporting the manuscript.
+Open CAD, control code, reconstruction, and videos for the 2P-OPM instrument.
 
 ## Contents
 - Opto-mechanical CAD (Inventor + STEP/STL): **[cad/](./cad)**
