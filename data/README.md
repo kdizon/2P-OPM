@@ -30,3 +30,6 @@ All datasets are **background-subtracted** and provided as **representative subs
 ### Format
 - **TIFF** stacks
 - Acquisition & processing details are described in the manuscript (Methods and Imaging conditions).
+
+
+Licensed under CC BY 4.0; see [LICENSE](./LICENSE).
