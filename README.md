@@ -11,6 +11,6 @@ Open CAD, control code, reconstruction, data, and videos for the 2P-OPM instrume
 
 ## Licensing
 - Code: [BSD-3-Clause](./LICENSE)
-- CAD: [CERN-OHL-P v2.0](./cad/LICENSE)
+- CAD: [CERN-OHL-P v2.0](./CAD/LICENSE)
 - Data: [CC BY 4.0](./data/LICENSE)
 - Videos: [CC BY 4.0](./movies/LICENSE)
