@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: BSD-3-Clause
+
+
 import FastMC_core
 
 # -------------------------- Instructions ----------------------------------- #
@@ -135,4 +138,5 @@ scope =  FastMC_core.nidaq(num_stacks = 1,                # number of 3D stacks 
 # -------------------------- do not modify below --------------------------------- #
 
 scope.acquire()
+
 
