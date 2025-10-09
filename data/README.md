@@ -32,4 +32,4 @@ All datasets are **background-subtracted** and provided as **representative subs
 - Acquisition & processing details are described in the manuscript (Methods and Imaging conditions).
 
 
-Licensed under CC BY 4.0; see [LICENSE](./LICENSE).
+© 2025 Kevin Keomanee-Dizon. Licensed under CC BY 4.0; see [LICENSE](./LICENSE).
