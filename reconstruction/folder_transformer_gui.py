@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: BSD-3-Clause
+
+
 import tkinter as tk
 from tkinter import filedialog
 import numpy as np
