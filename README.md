@@ -9,6 +9,14 @@ Open CAD, control code, reconstruction, data, and videos for the 2P-OPM instrume
 - Representative image datasets: **[data/](./data)**
 - Associated videos: **[movies/](./movies)**
 
+## Citation
+If you use the 2P-OPM hardware design, code, data, or videos, please cite:
+
+K. Keomanee-Dizon, Y. Clenman, A. Duran, S. Ryabichko, P. Hansen, T. Borjigin, R. Thornton, J. E. Toettcher, & H. M. McNamara.  
+**Depth-enhanced molecular imaging with two-photon oblique plane microscopy.**  
+arXiv:2511.09462 [physics.optics] (2025). https://doi.org/10.48550/arXiv.2511.09462
+
+
 ## Licensing
 - Code: [BSD-3-Clause](./LICENSE)
 - CAD: [CERN-OHL-P v2.0](./CAD/LICENSE)
