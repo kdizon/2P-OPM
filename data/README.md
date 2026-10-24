@@ -3,10 +3,10 @@
 All datasets are **background-subtracted** and provided as **representative subsets**.
 
 ## Beads (PSF benchmarking)
-- **Path:** `data/beads/Fig_S9/`
+- **Path:** `data/beads/Fig_2/`
 - **Type:** Reconstructed volume
 - **File:** `recon_BS.tif`
-- **Used in:** Fig. S9
+- **Used in:** Fig. 2a,b1–b5
 - **Notes:** 0.08667 µm isotropic voxels
 
 ## Flies — dual-color transcription imaging

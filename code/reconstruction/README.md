@@ -14,7 +14,7 @@ Deskews, rescales, and rotates raw OPM data into conventional microscope coordin
 - **Matrix ops**: `"together"` (faster) or `"seperate"` (lower GPU RAM)
 
 ## Quick start
-1. `python reconstruct.py`
+1. `python folder_transformer_gui.py`
 2. Click **Choose folder** and select the directory with raw **.tif** files (numerically sorted).
 3. Set parameters → **Transform**.
 4. Outputs are written to **`reconstructed_data/`** (e.g., `recon_0.tif`, `recon_1.tif`, …).

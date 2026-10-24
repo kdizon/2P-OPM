@@ -4,7 +4,7 @@ Open CAD, control code, reconstruction, data, and videos for the 2P-OPM instrume
 
 ## Contents
 - Opto-mechanical CAD (Inventor + STEP/STL): **[CAD/](./CAD)**
-- Instrument control/acquisition (FastMC): **[code/control/](./code/control)**
+- Instrument control/acquisition (fastMC): **[code/control/](./code/control)**
 - GPU-accelerated volume reconstruction: **[code/reconstruction/](./code/reconstruction)**
 - Representative image datasets: **[data/](./data)**
 - Associated videos: **[movies/](./movies)**
