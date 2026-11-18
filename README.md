@@ -12,9 +12,9 @@ Open CAD, control code, reconstruction, data, and videos for the 2P-OPM instrume
 ## Citation
 If you use the 2P-OPM hardware design, code, data, or videos, please cite:
 
-K. Keomanee-Dizon, Y. Clenman, A. Duran, S. Ryabichko, P. Hansen, T. Borjigin, R. Thornton, J. E. Toettcher, & H. M. McNamara.  
-**Depth-enhanced molecular imaging with two-photon oblique plane microscopy.**  
-arXiv:2511.09462 [physics.optics] (2025). https://doi.org/10.48550/arXiv.2511.09462
+K. Keomanee-Dizon, Y. Clenman, A. Duran, S. Ryabichko, P. Hansen, T. Borjigin, R. H. Thornton, J. E. Toettcher, & H. M. McNamara.
+<br>**Depth-enhanced molecular imaging with two-photon oblique plane microscopy.**<br>
+*Nature Communications* **17**, 11798 (2026). https://doi.org/10.1038/s41467-026-78668-6
 
 
 ## Licensing
