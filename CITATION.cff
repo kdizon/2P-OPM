@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use the 2P-OPM hardware design, code, data, or videos, please cite the article below."
+title: "2P-OPM: Two-photon oblique plane microscope"
+abstract: "Open CAD, control code, reconstruction, data, and videos for the 2P-OPM instrument."
+repository-code: "https://github.com/kdizon/2P-OPM"
+url: "https://kdizon.github.io/2P-OPM/"
+authors:
+  - family-names: "Keomanee-Dizon"
+    given-names: "Kevin"
+preferred-citation:
+  type: article
+  title: "Depth-enhanced molecular imaging with two-photon oblique plane microscopy"
+  authors:
+    - family-names: "Keomanee-Dizon"
+      given-names: "Kevin"
+    - family-names: "Clenman"
+      given-names: "Yaakov"
+    - family-names: "Duran"
+      given-names: "Alejandra"
+    - family-names: "Ryabichko"
+      given-names: "Sergey"
+    - family-names: "Hansen"
+      given-names: "Pauline"
+    - family-names: "Borjigin"
+      given-names: "Tohn"
+    - family-names: "Thornton"
+      given-names: "Richard H."
+    - family-names: "Toettcher"
+      given-names: "Jared E."
+    - family-names: "McNamara"
+      given-names: "Harold M."
+  journal: "Nature Communications"
+  volume: 17
+  start: 11798
+  year: 2026
+  doi: "10.1038/s41467-026-78668-6"
